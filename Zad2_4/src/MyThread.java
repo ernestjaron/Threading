@@ -16,7 +16,7 @@ public class MyThread extends Thread
   
    public void count ()
    {
-	   for (int j = -128; j < 128; j++)
+       for (int j = -128; j < 128; j++)
        {
            for (int i = 0; i < tab.length; i++)
            {
@@ -26,7 +26,7 @@ public class MyThread extends Thread
                    
                }
 
-           }    
+          }    
          
        }
    }
@@ -39,7 +39,7 @@ public class MyThread extends Thread
 	    {
 		  synchronized(lock) 
 		  {
-			  count();
+		     count();
 		  }
 	  
 	    }
